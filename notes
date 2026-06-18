@@ -1,0 +1,207 @@
+DATATYPES IN JAVASCRIPT
+we have 5 data types 
+1.strings - this are made up of text e.g david 
+2.boolean - this are true or false statementsn e.g true or false
+3.number - this are numbers or integers e.g 1,2,3,4
+4.null - an empty data 
+5.undefined - an unspecified data types 
+
+VARIABLES IN JAVASCRIPT
+ let, const, var.
+
+There are four types of ways to output your result in javascript. 
+console.log(variable name or value)
+window.alert(variable name or value)
+document.write(variable name or value)
+window.print(prints page)
+
+CREATE TWO VARIABLES, ADD, SUBTRACT,MULTIPLY THEM AND OUTPUT YOUR RESULTS
+USING ANY OUTPUT METHOD OF YOUR CHOICE.
+ JAVASCRIPT KEYWORDS
+javascript keywords are 
+
+Rules for creating variable names.
+1. you can't use a javascript keyword like function, let , try.
+2. you use or start with underscore or dollar sign($).
+3. always remember that variables are case sensitive.
+4. A variable cannot start with a number.
+
+JAVASCRIPT statements
+a javascript stament is basically lines of codes.
+We use semi-colon(;) to end statements in javascript.
+
+Types of variable keywords
+1. var - it was abandoned in 2015, becuase it escapes the function and becomes
+a global variable. it has the ability to be called outside the scope and this can 
+cause errors in creating a function or a piece of code.
+A scope is created inside a curly brace and the code inside of it doesn't have
+any business outside that curly brace.
+var can be reasigned a value, let can be reassigned a value but const cannot be reassigned a value
+assognment operators(=) are used to give a value to a variable. 
+in a block scope any code in the culry braces is not affected by an external line of code.
+CONST IN JAVASCRIPT
+constants are values in javascript that there value cannot be changed by reassginment.
+a constant cannot be reassigned and redeclared.
+
+CONCATENATION.
+concatenation is a way of adding two or more javascript statements together 
+using the addition sign.(+)
+Task 1 - Create two variable 
+1.firstname and lastname.
+2.assign a name to them without using the prompt
+3.and concatenate them while adding this statement " Good day class i am _ _ 
+
+Increment operators 
+addition Increment operator - ++ - increase the value of a variable by 1
+subtraction decrement operator - -- - decreases the value of a variable by 1
+exponentiation(raise to power) - ** can also be replaced by math.pow(x,y)
+
+COMPARISON OPERATORS.
+The comparison operators is used to compare two or more values. 
+we have the following types of comparsion operators.
+ ==   -this is used to compare the how equal two values are.
+ ===  -this is used to compare both the type and value of a variable.
+ !=   -this is the not equal operator used to chack if a values is not equal.
+ !==  -this is used to check if the values and type of a data is not equal.
+ >    -this is the greater than symbol used to check if a value is greater than the other.
+ <    -this is the lesser than symbol used to check if a value is lesser than the other.
+ >=   -this is the greater than symbol used to check if a value is greater or equal than the other.
+ <=   -this is the lesser than symbol used to check if a value is lesser or equal than the other.
+
+CONDITIONAL STATEMENTS IN JAVASCRIPT.
+if
+else
+else if 
+switch
+ternary operator.
+
+JavaScript Assignment: Student Grading System
+Objective
+Create a JavaScript program that assigns grades based on a student's 
+score using if...else if...else statements.
+
+Requirements
+Create a variable called score and assign it a value between 0 and 100.
+Use if...else if...else statements to determine the student's grade according to 
+the following grading system:
+Score Range	Grade
+90 – 100	A
+80 – 89	B
+70 – 79	C
+60 – 69	D
+50 – 59	E
+0 – 49	FAIL
+Display the student's score and grade using a JavaScript output method.
+
+create an if else statement that 
+checks the email and password of users and decides if they have access to the website. 
+1.create a variable for the email and another variable for the password.
+
+OR OPERATORS
+OR (||)
+
+Returns true if at least one condition is true.That means that it's not 
+compulsory for the them to be equal.
+
+Task1. CREATE TWO VARIABLES 
+NAME AND PASSWORD 
+USING IF AND ELSE STATEMENTS CREATE A LOGIC THAT MAKES SURE THAT THE NAME 
+AND THE PASSWORD ARE THE SAME BEFORE DISPLAYING AN ACCESS MESSAGE.
+U MIGHT ALSO WANT TO USE THE AND OPERATOR
+
+switch CASE IN JAVASCRIPT
+The switch case in javascript do 
+
+TERNARY OPERATOR.
+A TERNARY OPERATOR - is a shorter way of writing an if...else statement.
+
+SYNTAX FOR TERNARY OPERATOR.
+condition ? valueIfTrue : valueIfFalse;
+
+FUNCTIONS IN JAVASCRIPT
+A function is a reusable piece of code. 
+it allows use to write a block of code once and use it anywhere we feel like it
+is neccessary.
+A function is created with a function keyword.
+THINGS TO ESTABLIshABOUT A FUNCTION.
+1.A varible not defined inside function must be declared as a parameter.
+2.A function doesn't have the power to affect anything outside the scope,
+unless it is called out.
+3. A function must be called out by it's name with a bracket in front of it.
+
+TASK 1
+
+ CREATE INSIDE THE FUNCTION USING TWO PARAMETER, WRITE A CODE THAT ADDS TWO NUMBERS TOGETHER AND 
+RETURNS THEIR RESULT.
+NOW USING  A VARIABLE THAT HOLDS THE  FUNCTION THAT CALCULATES THE RESULT OF NUMBERS OUTPUT YOUR 
+RESULT.
+
+           JAVASCRIPT - LOOPS. 
+TASK 1 -
+CREATE A WHILE LOOP THAT STOPS ITERATING WHEN IT GETS TO 15.
+YOU HAVE A NUMBER RANGE FROM 1 - 20. 
+USING IF STATEMENTS DECIDE WHEN TO OUTPUT THE TEXT SAYING - "FOUND IT.
+BREAK THE SEQUENCE AT THIS POINT AND EXIT THE LOOP.
+
+Create a variable for the classroom size (for example, 10 students).
+Create another variable that keeps track of how many students have been registered.
+Use a while loop to keep registering students.
+Every time a student is registered, display:
+Student 1 Registered
+Student 2 Registered
+Student 3 Registered
+Use the increment operator (++) to increase the student count.
+When half of the class is filled, display:
+Half of the class is now full.
+When only 2 spaces are left, display:
+Only 2 spaces remaining.
+When the class becomes full:
+Class Full!
+Stop the loop using break.
+After the loop ends, display:
+Total Students Registered: ?
+
+ARRAYS (LISTS) IN JAVASCRIPT
+An array is a special variable that can store multiple values.
+
+ARRAY INDEX 
+Is the position of items inside an array(lists).
+
+ARRAY METHODS
+AN ARRAY METHOD IS USED TO MANIPULATE AN ARRAY OR CARRY OUT AN ACTION ON IT.
+They usually end with a closed bracket.
+EXAMPLES.
+-push() - Adds to the end.
+-pop()  - Removes the last item.
+unshift() - Adds to the beginning.
+shift() -Removes first item.
+
+🔥 The Spy Challenge
+let people = ["Teacher", "Doctor", "Engineer", "Spy", "Farmer"];
+Your Task
+Search through the array using a loop.
+Find the "Spy".
+Display:
+Spy Found!
+Display the position of the spy.
+Stop the loop immediately using break.
+Expected Output
+Spy Found!
+Position: 3
+🚀 Bonus Challenge
+
+Display how many people were checked before finding the spy.
+
+Example:
+
+People Checked: 4
+
+This one is short, but it secretly tests:
+
+OBJECTS IN JAVASCRIPT
+AN OBJECT IS A COLLECTION OF STORED DATA IN KEY TO PAIR FORMATS.
+everything inside an object is called a property
+
+create an object
+inside that same object, create an object function.
+now the function's duty is to output all the data stored in your object.
