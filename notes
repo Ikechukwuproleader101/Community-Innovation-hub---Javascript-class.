@@ -205,3 +205,13 @@ everything inside an object is called a property
 create an object
 inside that same object, create an object function.
 now the function's duty is to output all the data stored in your object.
+
+HTML DOM (DOCUMENT OBJECT MODEL)
+The html document object model is a standard way of accessing html objects(suchs as the <div>,<p> elements e.t.c)
+Document
+root
+An element has different properties - values, attributes,content,innerhtml,innertext.
+getElementById() - method.
+onclIck, onscroll, onload, ondbclick events for html in JavaScript.
+HTML DOM METHODS 
+AN HTML PROPERTY IS A VALUE THAT YOU CAN GET OR SET(LIKE CHANGING THE CONTENT OF AN HTML ELEMENT).

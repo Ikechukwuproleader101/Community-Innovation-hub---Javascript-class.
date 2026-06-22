@@ -461,18 +461,26 @@
 // delete car.horsepower;
 // console.log(car)
 
-let car = {
-    type:"saloon", 
-    model:"2020",
-    name:"Renault quid",
-    color:"black",
-    greet: function() {
-        console.log(car);
-        console.log(car.name);
-        delete car.type;
-    }
-};
-car.greet();
-console.log(car)
+// let car = {
+//     type:"saloon", 
+//     model:"2020",
+//     name:"Renault quid",
+//     color:"black",
+//     fetch: function() {
+//         console.log(car);
+//         console.log(car.name);
+//         delete car.type;
+//     }
+// };
+// car.fetch();
+// console.log(car)
 
+// let car = function() {
+//     console.log("hello")
+// }
+// car();
+
+const element = document.getElementById('paragraph');
+element.innerHTML = "girl";
+const tag = 
 
