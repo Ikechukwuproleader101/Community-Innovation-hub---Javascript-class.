@@ -482,12 +482,18 @@
 
 // const element = document.getElementById('paragraph');
 // element.innerHTML = "girl";
-let Tagname = document.getElementsByTagName("p");
-const result = document.getElementById("result").innerHTML = "this is the result from the first <p> tag"
-+ Tagname[0].textContent;
-let design = document.getElementById('result').style.color = "red";
-document.getElementById("result").style.textDecoration = "underline";
+// let Tagname = document.getElementsByTagName("p");
+// const result = document.getElementById("result").innerHTML = "this is the result from the first <p> tag"
+// + Tagname[0].textContent;
+// let design = document.getElementById('result').style.color = "red";
+// document.getElementById("result").style.textDecoration = "underline";
 
-const currentdate = new Date();
-let date = document.getElementsByClassName('date');
-document.getElementById("clock").innerHTML = 'Date is  :' + currentdate;
+// const currentdate = new Date();
+// let date = document.getElementsByClassName('date');
+// document.getElementById("clock").innerHTML = 'Date is  :' + currentdate;
+
+function button(){
+     const box = document.getElementById('box').style.backgroundColor = "red";
+     const Textcolor = document.getElementById('box').style.Color = "white";
+     const  boxText = document.getElementById('clickText').innerText = "get the f broo😅😅😅";
+}
