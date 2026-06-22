@@ -1,0 +1,12 @@
+#box{
+    background-color: yellow;
+    height: 20vh;
+    width: 200px;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+button{
+    margin-left: 50px;
+    margin-top: 5px;
+}
