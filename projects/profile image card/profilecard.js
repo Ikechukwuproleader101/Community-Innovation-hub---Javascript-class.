@@ -16,6 +16,8 @@ const formsData ={
     occupation: document.getElementById('occupation').value,
     bio: document.getElementById('bio').value,
 }
+const saveFormData = localStorage.setItem(formsData);
+
 export function dataTransfer(){
     return formsData;
 }
